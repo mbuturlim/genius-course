@@ -41,6 +41,7 @@
           </h1>
         </div>
       </section>
+      <div class="test-box"></div>
       <section class="advantages-section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
@@ -77,14 +78,19 @@
           </div>
         </div>
       </section>
-      <section class="chefs-title section" id="chefs">
+      <section class="section" id="chefs">
         <div class="container">
-          <h2 class="section-title">
+          <h2 class="chefs-title section-title centered">
             Наші найкращі <span class="accent">шеф-кухарі</span>
           </h2>
           <ul>
             <li>
               <article>
+                <img
+                  class="chef-image"
+                  src="./images/nastya-chef.jpg"
+                  alt="Nastya chef"
+                />
                 <h3 class="chef-name">Настя</h3>
                 <p>Привіт, я Настя!</p>
                 <p>Вже 10 років, я освітлюю у життя цікаві та смачні ідеї.</p>
@@ -93,6 +99,11 @@
             </li>
             <li>
               <article>
+                <img
+                  class="chef-image"
+                  src="./images/vlad-chef.jpg"
+                  alt="Vlad chef"
+                />
                 <h3 class="chef-name">Влад</h3>
                 <p>Привіт, я Влад!</p>
                 <p>
@@ -107,7 +118,12 @@
       </section>
       <section class="section" id="formats">
         <div class="container">
-          <h2 class="formats-title section-title">Формати</h2>
+          <h2 class="formats-title section-title centered">Формати</h2>
+          <button class="carousel-button" type="button">
+            <svg class="carousel-arrow" width="16" height="16">
+              <use href="./images/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
           <ul class="formats-list">
             <li class="formats-items">
               <article class="format-card">
@@ -152,6 +168,11 @@
               </article>
             </li>
           </ul>
+          <button class="carousel-button" type="button">
+            <svg class="carousel-arrow" width="16" height="16">
+              <use href="./images/icons.svg#icon-arrow"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="section" id="contact-section">
@@ -173,7 +194,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <nav>
           <a href="#">
@@ -206,9 +227,17 @@
                 >Україна, м.Київ, вул. Січових Стрільців, 54</a
               >
             </li>
-            <li><a href="#" target="_blank">facebook</a></li>
-            <li><a href="#" target="_blank">instagram</a></li>
           </ul>
+          <a href="#" target="_blank">
+            <svg class="address-social" width="32" heigh="32">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+          <a href="#" target="_blank">
+            <svg class="address-social" width="32" heigh="32">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
         </address>
         <a class="address-link" href="#" target="_blank"
           >Політика конфіденційності</a

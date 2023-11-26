@@ -1,0 +1,53 @@
+@import "./base/fonts";
+@import "./base/base";
+@import "./base/mixins";
+
+@import "./utils/variables";
+@import "./utils/texts";
+@import "./utils/utils";
+
+@import "./components/header";
+@import "./components/links";
+@import "./components/buttons";
+@import "./components/carousel";
+@import "./components/footer";
+@import "./components/modal";
+@import "./components/form";
+@import "./components/chef-card";
+@import "./components/format-card";
+
+@import "./sections/section";
+@import "./sections/hero_section";
+@import "./sections/advantages-section";
+@import "./sections/traditions-section";
+@import "./sections/chefs-section";
+@import "./sections/formats-section";
+@import "./sections/contact-sections";
+
+// .circle {
+//   @include circle(100px, 100px, white);
+// }
+// .circle-big {
+//   @include circle(200px, 200px, green);
+// }
+// /* .button:disabled {
+//   background-color: lightgray;
+//   color: gray;
+//   cursor: not-allowed;
+// } */
+
+/* .carousel-button:hover .carousel-arrow {
+  fill: var(--color-primary-light);
+} */
+
+/* .carousel-arrow {
+  fill: var(--color-brand-dark);
+} */
+
+/* .test-box {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 20px auto;
+  background-image: radial-gradient(to top, 45deg, yellow 50%, blue 70%);
+} */

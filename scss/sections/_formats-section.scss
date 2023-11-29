@@ -11,12 +11,6 @@
   &__items {
     flex-basis: calc((100% - 40px) / 3);
   }
-
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
 }
 
 // .format-title .format-text {
